@@ -183,7 +183,7 @@
   .service-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 3rem;
     justify-content: center;
   }
   
@@ -194,6 +194,7 @@
     width: 300px;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
   }
   
   .service-card:hover {
