@@ -158,9 +158,80 @@
   /* =================== */
   /*    CONTACT PAGE    */
   /* =================== */
+  
   .contact-page {
-    padding: 4rem 2rem;
-    max-width: 1000px;
+    padding: 2em;
+    max-width: 900px;
     margin: auto;
   }
+  
+  .contact-info h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.2em;
+  }
+  
+  .contact-info p {
+    font-size: 1.1em;
+    margin-bottom: 2em;
+  }
+  
+  .info-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+  }
+  
+  .info-box {
+    background-color: white;
+    color: black;
+    padding: 1em 2em;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    flex: 1 1 250px;
+    text-align: center;
+  }
+  
+  .info-box a {
+    color: black;
+  }
+  .contact-form {
+    margin-top: 3em;
+  }
+  
+  .contact-form h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.75em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .contact-form button {
+    padding: 0.75em;
+    font-size: 1em;
+    background-color: white;
+    color: #111;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  
+  @media (max-width: 600px) {
+    .info-blocks {
+      flex-direction: column;
+    }
+  }
+  
   
